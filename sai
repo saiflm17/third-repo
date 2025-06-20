@@ -24,7 +24,8 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
 
 5. STEPS INVOLVED IN BUILDING THE PROJECT
 
-- STEP-1 : 
+- STEP-1 : First of all taking a New Server with Server configurations are server_name : project, AMI : Amazon linux kernel 5.10, Instance_type : t2.medium,
+           Key_Pair : sai-kp, Security_Group : All-Traffic, EBS : 20GIB . 
 
 
 
