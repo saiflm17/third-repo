@@ -159,6 +159,14 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
 
 - This is the Screenshot of deployed Zomato Application .
 
+7. CONCLUSION 
+
+This project successfully implements a CI/CD pipeline for a Node.js Zomato Application. By using Docker and Kubernetes to set-up Kops Cluster it replicates 
+real-world deployment workflows. This method provides a foundational understanding of DevOps practices and prepares the application for production-grade
+infrastructure in the future.
+
+
+
 
 
 
