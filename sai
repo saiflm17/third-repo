@@ -53,14 +53,32 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
 
  - COMMAND : systemctl status docker - To check the status of the docker .
 
+ - COMMAND : chmod 777 ///var/run/docker.sock - To communicate between docker to jenkins .
+
  Docker-Compose :
 
  - To set-up the docker-compose by collecting commands from the browser .
 
 #STEP-3 :
 
-- Now to Access the Jenkins dashboard with public-ip:8080 . 8080 is a Jenkins Port Number . After am creating a New Job in Jenkins and the Job_Name is Deployment.
+- Now to Access the Jenkins dashboard with public-ip:8080. 8080 is a Jenkins Port Number. After creating a New Job in Jenkins and the Job_Name is Deployment.
 
+- And my project is node.js Zomato Application package.json files .
+
+- After To install the Plugins from manage jenkins 🡢 plugins 🡢 installed plugins .
+
+- Plugins_Names : pipeline stage view , node.js, docker pipeline, eclipse temurin installer
+
+- After configured all the plugins to jenkins Job .
+
+- Now writing and implementing CI/CD pipeline with the stages .
+
+    stage-1 : It is a clean workspace .
+    stage-2 : To get the code from github to ci server .
+    stage-3 : To build the Code 
+    stage-4 : To build the dockerfile .then a New docker-image has to come .
+    stage-5 : To Rename the docker-image and that docker-image push to Docker-Hub .
+    stage-6 : To deploy the application in containers .
 
 
  
