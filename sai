@@ -12,3 +12,9 @@ Deployment is handled by using kubernetes on kops cluster .
 
 3. ABSTRACT
 
+This project demonstrates the implementation of a CI/CD pipeline for the Zomato application using Docker containers, GitHub Actions, and Kubernetes(Kops) Pods.
+The pipeline automatically builds Docker images, to build the code, runs unit tests, pushes images to Docker Hub, and deploys them using kubernetes(Kops). In
+this project a zomato application am deploying in two ways and the first one is docker-compose am creating docker containers to run the application and the second
+one is kubernetes (kops cluster) am creating Pods to run the application .
+
+
