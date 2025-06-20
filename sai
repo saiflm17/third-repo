@@ -18,4 +18,7 @@ this project a zomato application am deploying in two ways and the first way is 
 second one is kubernetes (kops cluster) am creating Pods to run the application. The pipeline is ensures consistent, automated and making it suitable for local
 environments and learning devops practices.
 
+4. TOOLS AND TECHNOLOGIES USED 
+
+
 
