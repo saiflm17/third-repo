@@ -6,4 +6,5 @@ CI/CD Pipeline for Zomato Application using Node.js, Docker, Kubernetes(kops clu
 
 2. INTRODUCTION
 
-Modern application development demands automated pipelines to ensure continuous integration and delivery . This project demonstrates how to containerize a Node.js Zomato application and automate its build-test-deploy lifecycle using GitHub Actions and Docker
+Modern application development demands automated pipelines to ensure continuous integration and delivery . This project demonstrates how to containerize a 
+Node.js Zomato application and automate its build-test-deploy lifecycle using GitHub Actions and Docker.
