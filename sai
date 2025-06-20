@@ -35,6 +35,8 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
 
  - COMMAND : yum install git -y - To install the git .
 
+ Jenkins Installation Commands :
+
  - COMMAND : yum install java-17-amazon-corretto -y - To install the java-17 version because of jenkins dependency java .
 
  - After collecting Two repos from jenkins.io .
@@ -45,7 +47,7 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
 
  - COMMAND : systemctl status jenkins - To check the status of the jenkins .
 
- Docker Commands :
+ Docker Installation Commands :
 
  - COMMAND : yum install docker -y - To install the docker .
 
@@ -80,17 +82,92 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
     stage-5 : To Rename the docker-image and that docker-image push to Docker-Hub .
     stage-6 : To deploy the application in containers .
 
- - This is the screenshot of successfully executed pipeline .
+ - This is the screenshot of Jenkins Dashboard successfully executed pipeline .
 
  - This is the screenshot of docker images .
 
  - This is the screenshot of docker containers .
 
- - There are some commands are executed in this project and the commands are :
+ - There are some Docker Commands are executed in this project and the commands are :
 
-    .  COMMAND : docker images - To check the list of images .
+    - COMMAND : docker build -t image_name . - To build the dockerfile .
 
-      COMMAND : docker ps - To check the list of containers .
+    - COMMAND : docker-compose up -d - To create a containers .
+
+    - COMMAND : docker images - To check the list of images .
+
+    - COMMAND : docker ps - To check the list of containers .
+
+    - COMMAND : docker tag old_image_name new_image_name - To rename the docker-image .
+
+    - COMMAND : docker push image_name - To push the image to dockerhub .
+
+- This is the Dockerfile .
+
+- This is the GitHub Actions CI/CD Workflow .
+
+- This is the docker-compose.yaml .
+
+- This is the screenshot of deployed Zomato Application .
+
+#STEP-4 : Now to set-up a Kubernetes Kops Cluster in server by using 
+
+  - awscli commands .   
+
+  - kubectl commands .
+
+  - kops cluster commands .
+
+- To create a kops cluster creation by using command .
+
+     - COMMAND : kops create cluster --name=sai.k8s.local --zones=us-east-1a,us-east-1b --master-size=t2.medium --master-count=1 --master-volume-size=30 
+                 --node-size=t2.medium --node-count=3 --node-volume-size=30 .
+
+     - COMMAND : kops get cluster - To check the list of clusters .
+
+- Now To create a deployment YAML file and the name is deployment.yaml .
+
+- After to create a service YAML file and the name is svc.yaml .
+
+-  Some Commands are there to Apply & Access .
+
+       - COMMAND : kubectl apply -f deployment .yaml - To Executed the deployment file .
+
+       - COMMAND : kubectl apply -f svc.yaml - To Executed the service file .
+
+ - Some Commands are there in Kubernetes .
+
+      - COMMAND : kubectl get po - To Check the list of pods .
+
+      - COMMAND : kubectl get deploy - To Check the list of Deployments .
+
+      - COMMAND : kubectl get svc - To check the list of services .
+
+      - COMMAND : kubectl describe pod pod_name - To Check the full information of the pod .
+
+      - COMMAND : kubectl exec -it pod_name -- bash - To Go the inside the Pod .
+
+      - COMMAND : kubectl logs pod_name - To Check the pod logs .
+
+- This is the screenshot of list of pods .
+
+- This is the screenshot of list of deployments .
+
+- This is the screenshot of list of services .
+
+- Now to access the Zomato application with public_ip:31482 . 
+
+- This is the Screenshot of deployed Zomato Application .
+
+
+
+
+
+
+
+
+
+    
 
 
 
