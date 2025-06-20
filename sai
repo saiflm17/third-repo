@@ -80,6 +80,20 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
     stage-5 : To Rename the docker-image and that docker-image push to Docker-Hub .
     stage-6 : To deploy the application in containers .
 
+ - This is the screenshot of successfully executed pipeline .
+
+ - This is the screenshot of docker images .
+
+ - This is the screenshot of docker containers .
+
+ - There are some commands are executed in this project and the commands are :
+
+    .  COMMAND : docker images - To check the list of images .
+
+      COMMAND : docker ps - To check the list of containers .
+
+
+
 
  
 
