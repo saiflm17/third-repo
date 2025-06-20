@@ -25,7 +25,14 @@ Git, GitHub, Node.js Jenkins, GitHub Actins for CI/CD Automation, Docker, Docker
 5. STEPS INVOLVED IN BUILDING THE PROJECT
 
 - STEP-1 : First of all taking a New Server with Server configurations are server_name : project, AMI : Amazon linux kernel 5.10, Instance_type : t2.medium,
-           Key_Pair : sai-kp, Security_Group : All-Traffic, EBS : 20GIB . 
+           Key_Pair : sai-kp, Security_Group : All-Traffic, EBS : 20GIB . After connecting to Server with SSH .
+
+- STEP-2 : Now changing to the Root User by using command 
+
+          COMMAND : sudo -i - To change the Root User .
+
+
+
 
 
 
