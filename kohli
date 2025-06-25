@@ -1,1 +1,15 @@
+                                                       PROJECT DOCUMENTATION
+
+1. TITLE :
+Kubernetes-Based Canary Deployment using Kubernetes(KOPS Cluster) and Istio .
+
+2. INTRODUCTION :
+Modern application development demands fast and reliable deployment strategies. Canary deployment is a release technique that reduces the risk of 
+introducing a new software version by gradually shifting traffic from the old version to the new version. This project demonstrates a canary deployment model 
+using kubernetes(KOPS Cluster) and Istio, a service mesh platform, to control traffic flow between different versions of a deployed application.
+The goal is to simulate real-world DevOps practices with traffic routing, performance monitoring, and rollbacks or promotions based on application behavior.
+
+3. ABSTRACT :
+This project simulates a canary deployment strategy on a Kubernetes(KOPS Cluster) environment.Two versions of a web application are deployed. 
+ Using Istio, traffic is split between the stable (v1) and the canary (v2) versions — initially 80% to v1 and 20% to v2.
 
