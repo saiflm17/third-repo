@@ -45,7 +45,18 @@ NOTE : am taking the those screenshots of CI/CD pipeline and docker image and do
 
 #STEP-7 : Now am deploying my application in second way that is kubernetes kops cluster . So Here am creating KOPS cluster because of my cluster high availability .
 
+Now to set-up a Kubernetes Kops Cluster in server by using ,
 
+  - awscli commands .   
+
+  - kubectl commands .
+
+  - kops cluster commands .
+
+- To create a kops cluster creation by using command .
+
+     - COMMAND : kops create cluster --name=sai.k8s.local --zones=us-east-1a,us-east-1b --master-size=t2.medium --master-count=1 --master-volume-size=30 
+                 --node-size=t2.medium --node-count=3 --node-volume-size=30 .
 
 
 
