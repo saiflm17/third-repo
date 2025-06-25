@@ -118,6 +118,47 @@ NOTE : am taking the screenshots of docker-image, list of pods, services, deploy
 
 - Now am writing gateway.yaml , VirtualService.yaml, DestinationRule.yaml .
 
+#STEP-11 : Now Monitoring Prometheus & Grafana .
+
+INSTALL K8S METRICS SERVER:
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+Verify that the metrics-server deployment is running the desired number of pods
+kubectl get pods -n kube-system
+kubectl get deployment metrics-server -n kube-system
+
+- INSTALL PROMETHEUS :
+
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts .
+
+helm repo update .
+
+kubectl create namespace prometheus
+
+helm install prometheus prometheus-community/prometheus --namespace prometheus --set alertmanager.persistentVolume.storageClass="gp2" --set server.persistentVolume.storageClass="gp2"
+kubectl get all -n prometheus
+
+
+- INSTALL GRAFANA :
+
+helm repo add grafana https://grafana.github.io/helm-charts .
+
+helm repo update .
+
+CREATE GRAFANA NAMESPACE:
+kubectl create namespace grafana .
+
+INSTALL GRAFANA:
+helm install grafana grafana/grafana --namespace grafana --set persistence.storageClassName="gp2" --set persistence.enabled=true --set adminPassword='EKS!sAWSome' --set service.type=LoadBalancer
+kubectl get all -n grafana
+
+#STEP-11 :
+
+Now am accessing Grafana dashboard for monitoring purpose .
+
+#STEP-12 :
+
+promote or rollback .
+
 
 
 
