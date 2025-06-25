@@ -43,5 +43,9 @@ NOTE : am taking the those screenshots of CI/CD pipeline and docker image and do
 
     - COMMAND : docker push image_name - To push the image to dockerhub .
 
+#STEP-7 : Now am deploying my application in second way that is kubernetes kops cluster . So Here am creating KOPS cluster because of my cluster high availability .
+
+
+
 
 
