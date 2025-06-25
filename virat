@@ -113,6 +113,12 @@ The above command will provide load balancer URL to access ARGO CD .
 
 - If also checks by using commands .
 
+ - COMMAND : kubectl get po - To Check the list of pods .
+
+       - COMMAND : kubectl get deploy - To Check the list of Deployments .
+
+       - COMMAND : kubectl get svc - To check the list of services .
+
 
 
 
