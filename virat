@@ -23,7 +23,11 @@ Git, Jenkins, Docker, GitHub, DockerHub, kubernetes(Kops Cluster), kubectl, Argo
 #STEP-1 : First of all taking a New Server with Server configurations are server_name : project-10 AMI : Amazon linux kernel 5.10, Instance_type : t2.medium,
            Key_Pair : sai-kp, Security_Group : All-Traffic, EBS : 20GIB . After connecting to Server with SSH .
 
-#STEP-2 : 
+#STEP-2 : Now To Set-Up the Tools Git, Docker, Jenkins, kubernetes(Kops Cluster), kubectl, ArgoCD. 
+
+#STEP-3 : Now am creating a New Repository in GitHub and the Repository_Name is project-10 .
+
+#STEP-4 : 
 
 
 
