@@ -114,7 +114,10 @@ Now am writing two files one is deployment YAML file and another one is Service 
 
 NOTE : am taking the screenshots of docker-image, list of pods, services, deployment and pasted in GitHub Repository .
 
-#STEP-10 : Configure Istio Gateway and VirtualService
+#STEP-10 : Configure Istio Gateway , VirtualService , DestinationRule .
+
+- Now am writing gateway.yaml , VirtualService.yaml, DestinationRule.yaml .
+
 
 
 
