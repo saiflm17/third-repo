@@ -58,5 +58,17 @@ Now to set-up a Kubernetes Kops Cluster in server by using ,
      - COMMAND : kops create cluster --name=sai.k8s.local --zones=us-east-1a,us-east-1b --master-size=t2.medium --master-count=1 --master-volume-size=30 
                  --node-size=t2.medium --node-count=3 --node-volume-size=30 .
 
+     - COMMAND : kops get cluster - To check the list of clusters .
+
+- After KOPS cluster set-up is completed . Now am creating two files for depoying my application .
+
+- one is deployment YAML file and the name is deployment.yaml .
+
+- second is service YAML file and the name is svc.yaml .
+
+
+
+
+
 
 
