@@ -2,6 +2,8 @@
 
 #STEP-2 : Now to set-up the tools git
 
+- Now am creating a New Repository in GitHub and collect the source code via browser .
+
 #STEP-3 : After am accessing the Jenkins dash board with public-ip:8080 . 8080 it is a port number .
 
 #STEP-4 : am creating a New job for the pipeline running purpose .
