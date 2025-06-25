@@ -27,7 +27,16 @@ Git, Jenkins, Docker, GitHub, DockerHub, kubernetes(Kops Cluster), kubectl, Argo
 
 #STEP-3 : Now am creating a New Repository in GitHub and the Repository_Name is project-10 .
 
-#STEP-4 : 
+#STEP-4 : After am accessing the Jenkins dash board with public-ip:8080 . 8080 it is a port number . Now am creating a New Job for the pipeline running purpose .
+
+- So Here am using CI/CD pipeline for some advanced stages because of automate purpose .
+
+#Step-5 : Now am installed some plugins 
+
+PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin installer, sonarqube scanner, OWASP Dependency Check .
+
+
+
 
 
 
