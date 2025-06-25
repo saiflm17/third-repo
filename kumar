@@ -66,6 +66,16 @@ Now to set-up a Kubernetes Kops Cluster in server by using ,
 
 - second is service YAML file and the name is svc.yaml .
 
+- This is the screenshot of deployment YAML file .
+
+- This is the screenshot of service YAML file .
+
+-  Some Commands are there to Apply & Access .
+
+       - COMMAND : kubectl apply -f deployment .yaml - To Executed the deployment file .
+
+       - COMMAND : kubectl apply -f svc.yaml - To Executed the service file .
+
 
 
 
