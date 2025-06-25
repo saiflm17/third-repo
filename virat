@@ -48,6 +48,10 @@ PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin in
     stage-8 : So here am using Trivy Tool because to scan the New docker-image .
     stage-9 : Last stage is new docker-image to push the docker-hub .
 
+- #STEP-6 : After my CI/CD pipeline is successfully executed . Then a New Docker Image is created .
+
+NOTE : am taking the those screenshots of CI/CD pipeline and docker image are pasted in my GitHub Repository .
+
 
 
 
