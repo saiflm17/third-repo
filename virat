@@ -105,7 +105,15 @@ The above command will provide load balancer URL to access ARGO CD .
 
 - Now am accessing ARGOCD Dashboard afetr am login by giving the credentials .
 
+Enable Auto-Sync in ArgoCD
+
+In ArgoCD UI, enable auto-sync and self-heal options.
+
+Any changes pushed to the GitHub repo will now reflect in the cluster automatically.
+
 #STEP-9 :
+
+Configure ArgoCD to auto-sync and deploy from Git
 
 - In Argocd am creating a New application for deploying my tetris gaming app and am integrating Argocd to GitHub by giving a GitHub Repository URL.
 
@@ -119,6 +127,31 @@ The above command will provide load balancer URL to access ARGO CD .
 
        - COMMAND : kubectl get svc - To check the list of services .
 
+- This is the Screenshot 
+
+#STEP-10 :
+- Now am updating the versions via git commits .
+
+- Now cloning the repository into my server .
+
+After am updating the versions version-1.0, version-2.0, version-3.0, version-4.0 .
+
+And tracking and committing the files .
+
+- COMMAND - git add - To track the filse .
+
+- COMMAND - git commit -m "commit_message" file_name - To commit the file .
+
+- COMMAND - git log - To see the commits .
+
+- This is the Screenshot of Git Commits .
+
+NOTE : All Screenshots am taking and pasted in my GitHub repository .
+
+6. CONCLUSION :
+This project successfully demonstrates a GitOps-based deployment strategy using ArgoCD and Kubernetes. By version-controlling Kubernetes manifests 
+in GitHub, and allowing ArgoCD to monitor and sync changes, we achieved a fully automated and reliable CI/CD system. The project highlights GitOps as
+an essential modern DevOps practice.
 
 
 
