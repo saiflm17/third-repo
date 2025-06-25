@@ -84,6 +84,10 @@ Now to set-up a Kubernetes Kops Cluster in server by using ,
 
        - COMMAND : kubectl get svc - To check the list of services .
 
+NOTE : Here am taking the screenshots of list of pods , deployments , services pasted in GitHub Repository .
+
+
+
 
 
 
