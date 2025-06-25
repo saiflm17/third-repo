@@ -104,8 +104,17 @@ istioctl install --set profile=demo
 kubectl label namespace default istio-injection=enabled .
 
 #STEP-9 :
-Now am writing two files one is deployment YAML file and another one is Service YAML file 
+Now am writing two files one is deployment YAML file and another one is Service YAML file .
 
+-  Some Commands are there to Apply & Access .
+
+       - COMMAND : kubectl apply -f deployment .yaml - To Executed the deployment file .
+
+       - COMMAND : kubectl apply -f svc.yaml - To Executed the service file .
+
+NOTE : am taking the screenshots of docker-image, list of pods, services, deployment and pasted in GitHub Repository .
+
+#STEP-10 : Configure Istio Gateway and VirtualService
 
 
 
