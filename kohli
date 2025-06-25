@@ -11,7 +11,7 @@ The goal is to simulate real-world DevOps practices with traffic routing, perfor
 
 3. ABSTRACT :
 This project simulates a canary deployment strategy on a Kubernetes(KOPS Cluster) environment. Here am creating KOPS Cluster 
-because of high availability to my cluster two versions of a web application are deployed. 
+because of high availability to my cluster two versions of a web application are deployed. And also creating a CI/CD pipeline for automate purpose .
  Using Istio, traffic is split between the stable (v1) and the canary (v2) versions — initially 80% to v1 and 20% to v2.
 Performance is monitored using Grafana/Prometheus dashboards. Based on performance, the deployment is either rolled back or the canary is promoted to full production.
 am collecting traffic logs and metrics dashoard .
@@ -21,4 +21,31 @@ Git, GitHub, Jenkins, kubernetes(KOPS Cluster), Istio tool, Docker, Helm, Docker
 
 5. STEPS INVOLVED IN BUILDING THE PROJECT :
 
-#STEP-1 : 
+#STEP-1 : First of all taking a New Server with Server configurations are server_name : project-7 AMI : Amazon linux kernel 5.10, Instance_type : t2.medium,
+           Key_Pair : sai-kp, Security_Group : All-Traffic, EBS : 25GIB . After connecting to Server with SSH .
+
+#STEP-2 : Now To Set-Up the Tools Git, Docker, Jenkins, kubernetes(Kops Cluster), kubectl, Istio Tool, Promotheus & Grafana .
+
+#STEP-3 : Now am creating a New Repository in GitHub and the Repository_Name is project-7 .
+
+#STEP-4 : After am accessing the Jenkins dash board with public-ip:8080 . 8080 it is a port number . Now am creating a New Job for the pipeline running purpose .
+
+- So Here am using CI/CD pipeline for some advanced stages because of automate purpose .
+
+#Step-5 : Now am installed some plugins 
+
+PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin installer, sonarqube scanner, OWASP Dependency Check .
+
+- Now writing and implementing CI/CD pipeline with the stages .
+
+    stage-1 : It is a clean workspace .
+    stage-2 : To get the source code from github to ci server .
+    stage-3 : Here am using Sonarqube for the code quality analysis purpose because of to scan the source code .
+    stage-4 : Next am using quality gates because the purpose of code must pass before it can move forward in the build, test, or deployment process. if the code 
+              incorrect then the pipeline is aborted .
+    stage-5 : To build the source code .
+    stage-6 : OWASP Dependency-Check into a CI/CD pipeline helps checks known vulnerabilities in your project dependencies. 
+    stage-7 : To build the dockerfile .then a New docker-image has to come and also To Rename that docker-image .
+    stage-8 : So here am using Trivy Tool because to scan the New docker-image .
+    stage-9 : Last stage is new docker-image to push the docker-hub .
+
