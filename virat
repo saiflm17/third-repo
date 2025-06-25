@@ -77,6 +77,20 @@ Now to set-up a Kubernetes Kops Cluster in server by using ,
 
 - After KOPS cluster set-up is completed . Now am creating two files for depoying my application .
 
+one is deployment YAML file and the name is deployment.yaml .
+
+- second is service YAML file and the name is svc.yaml .
+
+- Then After Push application deployment manifests files to a GitHub Repository by using commands .
+
+- COMMAND : git push -u origin main - To push the files from local to central github repository . 
+
+- This is the screenshot of deployment file .
+
+- This is the screenshot of service YAML file .
+
+
+
 
 
 
