@@ -55,7 +55,61 @@ NOTE : am taking the those screenshots of CI/CD pipeline and docker image are pa
 
 - There are some command are used in my project .
  
- - COMMAND : docker build -t image_name  - To build the dockerfile .
+ - COMMAND : docker build -t saikumar1817/project-7:v1 - To build the dockerfile .
 
-- COMMAND : docker push image_name - To push image to docker-hub . 
+ - COMMAND : docker build -t saikumar1817/project-7:v2 - To build the dockerfile .
+
+ - COMMAND : docker push saikumar1817/project-7:v1 - To push the image to dockerhub .
+
+- COMMAND : docker push saikumar1817/project-7:v2 - To push the image to dockerhub .
+
+#STEP-7 : So Here am creating KOPS cluster because high availability for my cluster .
+
+Now to set-up a Kubernetes Kops Cluster in server by using ,
+
+  - awscli commands .   
+
+  - kubectl commands .
+
+  - kops cluster commands .
+
+- To create a kops cluster creation by using command .
+
+     - COMMAND : kops create cluster --name=saikumar.k8s.local --zones=us-east-1a,us-east-1b --master-size=t2.medium --master-count=1 --master-volume-size=30 
+                 --node-size=t2.medium --node-count=3 --node-volume-size=30 .
+
+     - COMMAND : kops get cluster - To check the list of clusters .
+
+- After KOPS cluster set-up is completed .
+
+#STEP-8 :
+
+- Now am installing Istio Tool with Helm .
+
+INSTALL HELM:
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+helm version
+
+INSTALL ISTIO :
+curl -L https://istio.io/downloadIstio | sh -
+
+cd istio-1.26.2
+
+export PATH=$PWD/bin:$PATH
+
+istioctl install --set profile=demo
+
+kubectl label namespace default istio-injection=enabled .
+
+#STEP-9 :
+Now am writing two files one is deployment YAML file and another one is Service YAML file 
+
+
+
+
+
+
+
 
