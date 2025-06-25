@@ -58,6 +58,16 @@ NOTE : am taking the those screenshots of CI/CD pipeline and docker image are pa
 
 - COMMAND : docker push image_name - To push image to docker-hub . 
 
+#STEP-7 : Now am deploying my application in ARGOCD. So Here am creating KOPS cluster because of my cluster high availability .
+
+Now to set-up a Kubernetes Kops Cluster in server by using ,
+
+  - awscli commands .   
+
+  - kubectl commands .
+
+  - kops cluster commands .
+
 
 
 
