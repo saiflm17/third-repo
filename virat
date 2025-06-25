@@ -35,6 +35,18 @@ Git, Jenkins, Docker, GitHub, DockerHub, kubernetes(Kops Cluster), kubectl, Argo
 
 PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin installer, sonarqube scanner, OWASP Dependency Check .
 
+- Now writing and implementing CI/CD pipeline with the stages .
+
+    stage-1 : It is a clean workspace .
+    stage-2 : To get the source code from github to ci server .
+    stage-3 : Here am using Sonarqube for the code quality analysis purpose because of to scan the source code .
+    stage-4 : Next am using quality gates because the purpose of code must pass before it can move forward in the build, test, or deployment process. if the code 
+              incorrect then the pipeline is aborted .
+    stage-5 : 
+    stage-4 : To build the dockerfile .then a New docker-image has to come .
+    stage-5 : To Rename the docker-image and that docker-image push to Docker-Hub .
+    stage-6 : To deploy the application in containers .
+
 
 
 
