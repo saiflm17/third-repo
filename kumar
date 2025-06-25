@@ -27,3 +27,5 @@ PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin in
 
 - so, this are the stages am implementing my CI/CD pipeline .
 
+#STEP-6 : After my CI/CD pipeline is successfully exec
+
