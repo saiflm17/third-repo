@@ -27,5 +27,9 @@ PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin in
 
 - so, this are the stages am implementing my CI/CD pipeline .
 
-#STEP-6 : After my CI/CD pipeline is successfully exec
+#STEP-6 : After my CI/CD pipeline is successfully executed . Then a New Docker Image and Docker Containers are also created .
+
+NOTE : am taking the those screenshots of CI/CD pipeline and docker image and docker containers are pasted in my GitHub Repository .
+
+
 
