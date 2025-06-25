@@ -105,6 +105,14 @@ The above command will provide load balancer URL to access ARGO CD .
 
 - Now am accessing ARGOCD Dashboard afetr am login by giving the credentials .
 
+#STEP-9 :
+
+- In Argocd am creating a New application for deploying my tetris gaming app and am integrating Argocd to GitHub by giving a GitHub Repository URL.
+
+- After my tetris gaming app is deployed then am accessing with public-ip:32733 .
+
+- If also checks by using commands .
+
 
 
 
