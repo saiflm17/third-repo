@@ -76,6 +76,15 @@ Now to set-up a Kubernetes Kops Cluster in server by using ,
 
        - COMMAND : kubectl apply -f svc.yaml - To Executed the service file .
 
+- There are some commands executed in my project .
+
+       - COMMAND : kubectl get po - To Check the list of pods .
+
+       - COMMAND : kubectl get deploy - To Check the list of Deployments .
+
+       - COMMAND : kubectl get svc - To check the list of services .
+
+
 
 
 
