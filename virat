@@ -1,1 +1,15 @@
+                                                             PROJECT DOCUMENTATION
+
+1. TITLE :
+GitOps-Based CI/CD Pipeline using ArgoCD and Kubernetes .
+
+2. INTRODUCTION :
+Modern DevOps practices demand continuous, reliable, and scalable deployment mechanisms. GitOps simplifies this by using Git as the single source of truth for
+Kubernetes cluster configuration and application deployment. This project demonstrates a practical implementation of GitOps using ArgoCD to automatically 
+sync and deploy Kubernetes manifests files from a GitHub repository.
+
+3.ABSTRACT :
+This project aims to showcase how GitOps principles can be applied to automate the deployment and lifecycle management of applications on Kubernetes using ARGOCD.
+
+
 
