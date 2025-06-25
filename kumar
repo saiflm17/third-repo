@@ -10,5 +10,14 @@
 
 PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin installer .
 
-- After am con
+- After configured all the plugins to the my jenkins Job .
+
+- Now writing and implementing CI/CD pipeline with the stages .
+
+    stage-1 : It is a clean workspace .
+    stage-2 : To get the code from github to ci server .
+    stage-3 : To build the Code 
+    stage-4 : To build the dockerfile .then a New docker-image has to come .
+    stage-5 : To Rename the docker-image and that docker-image push to Docker-Hub .
+    stage-6 : To deploy the application in containers so  docker-compose .
 
