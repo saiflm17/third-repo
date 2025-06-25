@@ -171,6 +171,8 @@ This project effectively demonstrates a canary deployment workflow in a controll
 gradually introducing new app versions and monitoring their behavior and DevOps engineers can ensure safer, incremental releases. 
 Tools like Istio, Prometheus, and Grafana provide the necessary control and visibility to make data-driven deployment decisions.
 
+NOTE : All screenshots am taking and pasted in GitHub Repository .
+
 
 
 
