@@ -86,6 +86,12 @@ Now to set-up a Kubernetes Kops Cluster in server by using ,
 
 NOTE : Here am taking the screenshots of list of pods , deployments , services pasted in GitHub Repository .
 
+#STEP-8 : overall my Zomato Application deploying is completed .
+
+- Now am accessing the Zomato application with public_ip:31482 . 
+
+- This is the Screenshot of deployed Zomato Application .
+
 
 
 
