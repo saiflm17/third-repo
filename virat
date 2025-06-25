@@ -52,6 +52,11 @@ PLUGIN_NAME : pipeline stage view , node.js, docker pipeline, eclipse temurin in
 
 NOTE : am taking the those screenshots of CI/CD pipeline and docker image are pasted in my GitHub Repository .
 
+- There are some command are used in my project .
+ 
+ - COMMAND : docker build -t image_name  - To build the dockerfile .
+
+- COMMAND : docker push image_name - To push image to docker-hub . 
 
 
 
